@@ -4,8 +4,6 @@
 
 **Live demo:** <https://podify-phi.vercel.app> (or jump straight to the [sample episode](https://podify-phi.vercel.app/sample))
 
-Built for AssemblyAI's Voice Hackathon Week: Hack into Speech.
-
 ![Podify studio](docs/studio.jpg)
 
 ## Why
@@ -80,12 +78,5 @@ src/lib/rate-limit.ts per-IP and overall API limits
 ## Tech stack
 
 Next.js 16 (App Router, React 19, TypeScript), Tailwind CSS v4, shadcn/ui, React Flow, Web Audio API with an AudioWorklet, unpdf, Jina Reader, and the GitHub and Stack Exchange APIs.
-
-## Limitations
-
-- The library is stored in the browser, so runs are per device and can't be shared by link.
-- Script quality depends on the LLM. The free-tier 4B model works but is noticeably weaker outside English; set `LLM_MODEL` to a larger model if your account has access.
-- Some sites block automated reading, such as Medium and Reddit. YouTube videos and scanned PDFs aren't supported. Podify shows a clear error and suggests pasting the text instead.
-- API rate limits are kept in memory, so on serverless hosting they apply per instance.
 
 ![Podify library](docs/library.jpg)
