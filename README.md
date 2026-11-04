@@ -2,6 +2,8 @@
 
 **A podcast you can talk back to.** Turn links, GitHub repos, PDFs and notes into a two-host podcast, then hold the mic to interrupt with a question and hear the hosts answer live.
 
+**Live demo:** <https://podify-phi.vercel.app> (or jump straight to the [sample episode](https://podify-phi.vercel.app/sample))
+
 Built for AssemblyAI's Voice Hackathon Week: Hack into Speech.
 
 ![Podify studio](docs/studio.jpg)
